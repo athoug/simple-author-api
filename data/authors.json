@@ -1,0 +1,397 @@
+[
+	{
+		"id": "1",
+		"type": "authors",
+		"attributes": {
+			"name": "Haruki Murakami",
+			"date_of_birth": "1949-01-12",
+			"date_of_death": null,
+			"wikipedia": "https://en.wikipedia.org/wiki/Haruki_Murakami",
+			"photos": "https://en.wikipedia.org/wiki/Haruki_Murakami#/media/File:Murakami_Haruki_(2009).jpg",
+			"nationality": "Japanese"
+		},
+		"books": [
+			{
+				"id": "1",
+				"title": "Norwegian Wood",
+				"isbn": "0-679-40300-8",
+				"number_of_pages": 296,
+				"year_of_publication": 1987,
+				"author_id": "1",
+				"wikipedia": "https://en.wikipedia.org/wiki/Norwegian_Wood_(novel)",
+				"book_cover": "https://en.wikipedia.org/wiki/Norwegian_Wood_(novel)#/media/File:NorwegianWood.jpg",
+				"average_rating": 4.0,
+				"genre": "Romance"
+			},
+			{
+				"id": "2",
+				"title": "The Wind-Up Bird Chronicle",
+				"isbn": "0-679-77543-9",
+				"number_of_pages": 640,
+				"year_of_publication": 1994,
+				"author_id": "1",
+				"wikipedia": "https://en.wikipedia.org/wiki/The_Wind-Up_Bird_Chronicle",
+				"book_cover": "https://en.wikipedia.org/wiki/The_Wind-Up_Bird_Chronicle#/media/File:Wind-up_Bird_Chronicle.jpg",
+				"average_rating": 4.1,
+				"genre": "Fantasy, Magical Realism"
+			}
+		]
+	},
+
+	{
+		"id": "2",
+		"type": "authors",
+		"attributes": {
+			"name": "Douglas Adams",
+			"date_of_birth": "1952-03-11",
+			"date_of_death": "2001-05-11",
+			"wikipedia": "https://en.wikipedia.org/wiki/Douglas_Adams",
+			"photos": "https://en.wikipedia.org/wiki/Douglas_Adams#/media/File:Douglas_adams_portrait_cropped.jpg",
+			"nationality": "British"
+		},
+		"books": [
+			{
+				"id": "1",
+				"title": "The Hitchhiker's Guide to the Galaxy",
+				"isbn": "0-345-39180-2",
+				"number_of_pages": 224,
+				"year_of_publication": 1979,
+				"author_id": "2",
+				"wikipedia": "https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy",
+				"book_cover": "https://upload.wikimedia.org/wikipedia/en/b/bd/H2G2_UK_front_cover.jpg",
+				"average_rating": 4.4,
+				"genre": "Science Fiction"
+			},
+			{
+				"id": "2",
+				"title": "Dirk Gently's Holistic Detective Agency",
+				"isbn": "0-671-69267-4",
+				"number_of_pages": 306,
+				"year_of_publication": 1987,
+				"author_id": "2",
+				"wikipedia": "https://en.wikipedia.org/wiki/Dirk_Gently%27s_Holistic_Detective_Agency",
+				"book_cover": "https://en.wikipedia.org/wiki/Dirk_Gently%27s_Holistic_Detective_Agency#/media/File:Dirk_Gently_UK_front_cover.jpg",
+				"average_rating": 3.98,
+				"genre": "Science Fiction, Mystery"
+			}
+		]
+	},
+	{
+		"id": "3",
+		"type": "authors",
+		"attributes": {
+			"name": "Sally Rooney",
+			"date_of_birth": "1991-02-20",
+			"date_of_death": null,
+			"wikipedia": "https://en.wikipedia.org/wiki/Sally_Rooney",
+			"photos": "https://images.gr-assets.com/authors/1534007127p5/15860970.jpg",
+			"nationality": "Irish"
+		},
+		"books": [
+			{
+				"id": "1",
+				"title": "Conversations with Friends",
+				"isbn": "9780571333127",
+				"number_of_pages": 336,
+				"year_of_publication": 2017,
+				"author_id": "3",
+				"wikipedia": "https://en.wikipedia.org/wiki/Conversations_with_Friends",
+				"book_cover": "https://en.wikipedia.org/wiki/Conversations_with_Friends#/media/File:Conversations_with_Friends_(Rooney_novel).png",
+				"average_rating": 3.8,
+				"genre": "Literary Fiction"
+			},
+			{
+				"id": "2",
+				"title": "Normal People",
+				"isbn": "9780571347292",
+				"number_of_pages": 288,
+				"year_of_publication": 2018,
+				"author_id": "3",
+				"wikipedia": "https://en.wikipedia.org/wiki/Normal_People",
+				"book_cover": "https://en.wikipedia.org/wiki/Normal_People#/media/File:Normal_People_(Rooney_novel).png",
+				"average_rating": 4.1,
+				"genre": "Literary Fiction"
+			},
+			{
+				"id": "3",
+				"title": "Beautiful World, Where Are You",
+				"isbn": "9780374602604",
+				"number_of_pages": 356,
+				"year_of_publication": 2021,
+				"author_id": "3",
+				"wikipedia": "https://en.wikipedia.org/wiki/Beautiful_World,_Where_Are_You",
+				"book_cover": "https://en.wikipedia.org/wiki/Beautiful_World,_Where_Are_You#/media/File:Beautiful_World,_Where_Are_You_-_1st_UK_edition_cover.jpg",
+				"average_rating": 3.9,
+				"genre": "Literary Fiction"
+			}
+		]
+	},
+	{
+		"id": "4",
+		"type": "authors",
+		"attributes": {
+			"name": "Terry Pratchett",
+			"date_of_birth": "1948-04-28",
+			"date_of_death": "2015-03-12",
+			"wikipedia": "https://en.wikipedia.org/wiki/Terry_Pratchett",
+			"photos": "https://en.wikipedia.org/wiki/Terry_Pratchett#/media/File:10.12.12TerryPratchettByLuigiNovi1.jpg",
+			"nationality": "British"
+		},
+		"books": [
+			{
+				"id": "1",
+				"title": "The Colour of Magic",
+				"isbn": "0-86140-324-X",
+				"number_of_pages": 206,
+				"year_of_publication": 1983,
+				"author_id": "4",
+				"wikipedia": "https://en.wikipedia.org/wiki/The_Colour_of_Magic",
+				"book_cover": "https://en.wikipedia.org/wiki/The_Colour_of_Magic#/media/File:The_Colour_of_Magic_(cover_art).jpg",
+				"average_rating": 3.99,
+				"genre": "Fantasy"
+			},
+			{
+				"id": "2",
+				"title": "Good Omens",
+				"isbn": "0-575-04800-X",
+				"number_of_pages": 288,
+				"year_of_publication": 1990,
+				"author_id": "4",
+				"wikipedia": "https://en.wikipedia.org/wiki/Good_Omens",
+				"book_cover": "https://en.wikipedia.org/wiki/Good_Omens#/media/File:Goodomenscover.jpg",
+				"average_rating": 4.25,
+				"genre": "Fantasy, Comedy"
+			}
+		]
+	},
+
+	{
+		"id": "5",
+		"type": "authors",
+		"attributes": {
+			"name": "Neil Gaiman",
+			"date_of_birth": "1960-11-10",
+			"date_of_death": null,
+			"wikipedia": "https://en.wikipedia.org/wiki/Neil_Gaiman",
+			"photos": "https://en.wikipedia.org/wiki/Neil_Gaiman#/media/File:Kyle-cassidy-neil-gaiman-April-2013.jpg",
+			"nationality": "British"
+		},
+		"books": [
+			{
+				"id": "1",
+				"title": "American Gods",
+				"isbn": "0-380-97365-0",
+				"number_of_pages": 465,
+				"year_of_publication": 2001,
+				"author_id": "5",
+				"wikipedia": "https://en.wikipedia.org/wiki/American_Gods",
+				"book_cover": "https://en.wikipedia.org/wiki/American_Gods#/media/File:American_gods.jpg",
+				"average_rating": 4.11,
+				"genre": "Fantasy"
+			},
+			{
+				"id": "2",
+				"title": "The Graveyard Book",
+				"isbn": "0-06-053092-8",
+				"number_of_pages": 312,
+				"year_of_publication": 2008,
+				"author_id": "5",
+				"wikipedia": "https://en.wikipedia.org/wiki/The_Graveyard_Book",
+				"book_cover": "https://en.wikipedia.org/wiki/The_Graveyard_Book#/media/File:TheGraveyardBook_Hardcover.jpg",
+				"average_rating": 4.13,
+				"genre": "Fantasy, Children's literature"
+			}
+		]
+	},
+
+	{
+		"id": "6",
+		"type": "authors",
+		"attributes": {
+			"name": "Kurt Vonnegut",
+			"date_of_birth": "1922-11-11",
+			"date_of_death": "2007-04-11",
+			"wikipedia": "https://en.wikipedia.org/wiki/Kurt_Vonnegut",
+			"photos": "https://en.wikipedia.org/wiki/Kurt_Vonnegut#/media/File:Kurt_Vonnegut_by_Bernard_Gotfryd_(1965).jpg",
+			"nationality": "American"
+		},
+		"books": [
+			{
+				"id": "1",
+				"title": "Slaughterhouse-Five",
+				"isbn": "0-385-31208-3",
+				"number_of_pages": 275,
+				"year_of_publication": 1969,
+				"author_id": "6",
+				"wikipedia": "https://en.wikipedia.org/wiki/Slaughterhouse-Five",
+				"book_cover": "https://en.wikipedia.org/wiki/Slaughterhouse-Five#/media/File:Slaughterhouse-Five_(first_edition)_-_Kurt_Vonnegut.jpg",
+				"average_rating": 4.07,
+				"genre": "Science Fiction, Satire"
+			},
+			{
+				"id": "2",
+				"title": "Cat's Cradle",
+				"isbn": "0-385-33348-X",
+				"number_of_pages": 304,
+				"year_of_publication": 1963,
+				"author_id": "6",
+				"wikipedia": "https://en.wikipedia.org/wiki/Cat%27s_Cradle",
+				"book_cover": "https://en.wikipedia.org/wiki/Cat%27s_Cradle#/media/File:Cat's_Cradle_(1st_ed._cover)_-_Vonnegut.jpg",
+				"average_rating": 4.17,
+				"genre": "Science Fiction, Satire"
+			}
+		]
+	},
+	{
+		"id": "7",
+		"type": "authors",
+		"attributes": {
+			"name": "Fyodor Dostoevsky",
+			"date_of_birth": "1821-11-11",
+			"date_of_death": "1881-02-09",
+			"wikipedia": "https://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+			"photos": "https://en.wikipedia.org/wiki/Fyodor_Dostoevsky#/media/File:Vasily_Perov_-_%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82_%D0%A4.%D0%9C.%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_-_Google_Art_Project.jpg",
+			"nationality": "Russian"
+		},
+		"books": [
+			{
+				"id": "1",
+				"title": "Crime and Punishment",
+				"isbn": null,
+				"number_of_pages": 430,
+				"year_of_publication": 1866,
+				"author_id": "7",
+				"wikipedia": "https://en.wikipedia.org/wiki/Crime_and_Punishment",
+				"book_cover": "https://en.wikipedia.org/wiki/Crime_and_Punishment#/media/File:Crimeandpunishmentcover.png",
+				"average_rating": 4.2,
+				"genre": "Philosophical novel"
+			},
+			{
+				"id": "2",
+				"title": "The Brothers Karamazov",
+				"isbn": null,
+				"number_of_pages": 824,
+				"year_of_publication": 1880,
+				"author_id": "7",
+				"wikipedia": "https://en.wikipedia.org/wiki/The_Brothers_Karamazov",
+				"book_cover": "https://en.wikipedia.org/wiki/The_Brothers_Karamazov#/media/File:Dostoevsky-Brothers_Karamazov.jpg",
+				"average_rating": 4.32,
+				"genre": "Philosophical novel"
+			}
+		]
+	},
+	{
+		"id": "8",
+		"type": "authors",
+		"attributes": {
+			"name": "Charles Bukowski",
+			"date_of_birth": "1920-08-16",
+			"date_of_death": "1994-03-09",
+			"wikipedia": "https://en.wikipedia.org/wiki/Charles_Bukowski",
+			"photos": "https://en.wikipedia.org/wiki/Charles_Bukowski#/media/File:Charles_Bukowski_smoking.jpg",
+			"nationality": "German-American"
+		},
+		"books": [
+			{
+				"id": "1",
+				"title": "Post Office",
+				"isbn": null,
+				"number_of_pages": 208,
+				"year_of_publication": 1971,
+				"author_id": "8",
+				"wikipedia": "https://en.wikipedia.org/wiki/Post_Office_(novel)",
+				"book_cover": "https://en.wikipedia.org/wiki/Post_Office_(novel)#/media/File:Post_Office_(Charles_Bukowski_novel_-_front_cover).jpg",
+				"average_rating": 4.0,
+				"genre": "Autobiographical fiction"
+			},
+			{
+				"id": "2",
+				"title": "Ham on Rye",
+				"isbn": null,
+				"number_of_pages": 288,
+				"year_of_publication": 1982,
+				"author_id": "8",
+				"wikipedia": "https://en.wikipedia.org/wiki/Ham_on_Rye",
+				"book_cover": "https://en.wikipedia.org/wiki/Ham_on_Rye#/media/File:HamOnRye.jpg",
+				"average_rating": 4.15,
+				"genre": "Autobiographical novel"
+			}
+		]
+	},
+	{
+		"id": "9",
+		"type": "authors",
+		"attributes": {
+			"name": "Franz Kafka",
+			"date_of_birth": "1883-07-03",
+			"date_of_death": "1924-06-03",
+			"wikipedia": "https://en.wikipedia.org/wiki/Franz_Kafka",
+			"photos": "https://en.wikipedia.org/wiki/Franz_Kafka#/media/File:Franz_Kafka,_1923.jpg",
+			"nationality": "Bohemian"
+		},
+		"books": [
+			{
+				"id": "1",
+				"title": "The Trial",
+				"isbn": null,
+				"number_of_pages": null,
+				"year_of_publication": 1925,
+				"author_id": "9",
+				"wikipedia": "https://en.wikipedia.org/wiki/The_Trial",
+				"book_cover": "https://en.wikipedia.org/wiki/The_Trial#/media/File:TrialKafka.jpg",
+				"average_rating": 4.0,
+				"genre": "Philosophical fiction"
+			},
+			{
+				"id": "2",
+				"title": "The Metamorphosis",
+				"isbn": null,
+				"number_of_pages": null,
+				"year_of_publication": 1915,
+				"author_id": "9",
+				"wikipedia": "https://en.wikipedia.org/wiki/The_Metamorphosis",
+				"book_cover": "https://en.wikipedia.org/wiki/The_Metamorphosis#/media/File:Franz_Kafka_Die_Verwandlung_1916_Orig.-Pappband.jpg",
+				"average_rating": 4.2,
+				"genre": "Absurdist fiction, Novella"
+			}
+		]
+	},
+	{
+		"id": "10",
+		"type": "authors",
+		"attributes": {
+			"name": "Isaac Asimov",
+			"date_of_birth": "1920-01-02",
+			"date_of_death": "1992-04-06",
+			"wikipedia": "https://en.wikipedia.org/wiki/Isaac_Asimov",
+			"photos": "https://upload.wikimedia.org/wikipedia/commons/3/34/Isaac.Asimov01.jpg",
+			"nationality": "American"
+		},
+		"books": [
+			{
+				"id": "1",
+				"title": "Foundation",
+				"isbn": null,
+				"number_of_pages": null,
+				"year_of_publication": 1951,
+				"author_id": "10",
+				"wikipedia": "https://en.wikipedia.org/wiki/Foundation_(Asimov_novel)",
+				"book_cover": "https://en.wikipedia.org/wiki/Foundation_(Asimov_novel)#/media/File:Foundation_-_Isaac_Asimov_(Gnome_1951).jpg",
+				"average_rating": 4.15,
+				"genre": "Science Fiction"
+			},
+			{
+				"id": "2",
+				"title": "I, Robot",
+				"isbn": null,
+				"number_of_pages": null,
+				"year_of_publication": 1950,
+				"author_id": "10",
+				"wikipedia": "https://en.wikipedia.org/wiki/I,_Robot",
+				"book_cover": "https://en.wikipedia.org/wiki/I,_Robot#/media/File:I_robot.jpg",
+				"average_rating": 4.18,
+				"genre": "Science Fiction"
+			}
+		]
+	}
+]
