@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Megrim|Nunito+Sans:400,900"
+			rel="stylesheet"
+		/>
+		<title>📚 Authors</title>
+
+		<style>
+			@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+			*,
+			*::before,
+			*::after {
+				margin: 0;
+				padding: 0;
+				box-sizing: inherit;
+			}
+
+			html {
+				font-size: 62.5%;
+				box-sizing: border-box;
+			}
+
+			body {
+				padding: 5rem 5rem 10rem;
+				line-height: 1.7;
+				font-family: 'Nunito Sans', sans-serif;
+				color: #555;
+				min-height: 100vh;
+				background: linear-gradient(98deg, #52dcc9, #e2d4c8, #a6961f);
+				background-size: 180% 180%;
+				animation: gradient-animation 3s ease infinite;
+			}
+
+			@keyframes gradient-animation {
+				0% {
+					background-position: 0% 50%;
+				}
+				50% {
+					background-position: 100% 50%;
+				}
+				100% {
+					background-position: 0% 50%;
+				}
+			}
+
+			h1 {
+				font-family: 'Megrim', sans-serif;
+				font-size: 6rem;
+				color: white;
+				transform: skewY(-5deg);
+				text-align: center;
+				position: relative;
+				word-spacing: 3px;
+			}
+
+			h1::before {
+				content: '';
+				display: block;
+				height: 65%;
+				width: 49%;
+				position: absolute;
+				top: 105%;
+				left: 50%;
+				background: linear-gradient(to bottom, #e2d4c8, #a6961f);
+				opacity: 0.8;
+				z-index: -1;
+				transform: skewY(370deg) translate(-50%, -50%);
+			}
+
+			.container {
+				width: 140rem;
+				margin: 0 auto;
+			}
+
+			.cards-container {
+				margin-top: 8rem;
+				display: flex;
+				flex-wrap: wrap;
+				/* gap: 10px; */
+			}
+
+			.card {
+				background: white;
+				box-shadow: 0 2rem 6rem 1rem rgba(0, 0, 0, 0.15);
+				margin-bottom: 5rem;
+				transform: skewX(-20deg);
+				display: flex;
+				transition: all 0.5s;
+			}
+
+			a {
+				text-decoration: none;
+			}
+
+			.author-card {
+				width: 380px;
+				position: relative;
+				box-shadow: 0 2px 7px #dfdfdf;
+				margin: 50px auto;
+				background: #fafafa;
+			}
+
+			.badge {
+				position: absolute;
+				left: 0;
+				top: 20px;
+				text-transform: uppercase;
+				font-size: 13px;
+				font-weight: 700;
+				background: red;
+				color: #fff;
+				padding: 3px 10px;
+			}
+
+			.author-tumb {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				height: 300px;
+				padding: 50px;
+				background: #f0f0f0;
+			}
+
+			.author-tumb img {
+				max-width: 100%;
+				max-height: 100%;
+			}
+
+			.author-details {
+				padding: 30px;
+			}
+
+			.author-catagory {
+				display: block;
+				font-size: 12px;
+				font-weight: 700;
+				text-transform: uppercase;
+				color: #ccc;
+				margin-bottom: 18px;
+			}
+
+			.author-details h4 a {
+				font-weight: 500;
+				display: block;
+				margin-bottom: 18px;
+				text-transform: uppercase;
+				color: #363636;
+				text-decoration: none;
+				transition: 0.3s;
+			}
+
+			.author-details h4 a:hover {
+				color: #fbb72c;
+			}
+
+			.author-details p {
+				font-size: 15px;
+				line-height: 22px;
+				margin-bottom: 18px;
+				color: #999;
+			}
+
+			.author-bottom-details {
+				overflow: hidden;
+				border-top: 1px solid #eee;
+				padding-top: 20px;
+			}
+
+			.author-bottom-details div {
+				float: left;
+				width: 50%;
+			}
+
+			.author-link {
+				font-size: 18px;
+				color: #fbb72c;
+				font-weight: 600;
+			}
+
+			.author-links {
+				text-align: right;
+			}
+
+			.author-link a {
+				display: inline-block;
+				margin-left: 5px;
+				color: #e1e1e1;
+				transition: 0.3s;
+				font-size: 17px;
+				color: #fbb72c;
+			}
+
+			.author-link a:hover {
+				color: #52dcc9;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<h1>Authors Hall of Fame ⭐️</h1>
+			<div class="cards-container">{%AUTHOR_CARDS%}</div>
+		</div>
+	</body>
+</html>
