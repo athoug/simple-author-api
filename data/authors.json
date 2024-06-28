@@ -9,6 +9,7 @@
 			"wikipedia": "https://en.wikipedia.org/wiki/Haruki_Murakami",
 			"photos": "https://media.npr.org/assets/img/2021/04/05/haruki-murakami-author-photo-elena-seibert_custom-9e3a7329c65ac6de0d108d8bd0511e9a35d98522.jpg?s=600&c=85&f=webp",
 			"nationality": "Japanese",
+			"flag": "🇯🇵",
 			"blurb": "a renowned Japanese author known for his surreal, dreamlike narratives that blend elements of pop culture, magical realism, and profound existential themes."
 		},
 		"books": [
@@ -49,6 +50,7 @@
 			"wikipedia": "https://en.wikipedia.org/wiki/Douglas_Adams",
 			"photos": "https://imageio.forbes.com/blogs-images/sap/files/2014/07/douglas-adams-e1404187786346-150x150.jpg?format=jpg&width=1440",
 			"nationality": "British",
+			"flag": "🇬🇧",
 			"blurb": "a British author and humorist best known for his science fiction series combines absurdist humor with satirical commentary on life, the universe, and everything."
 		},
 		"books": [
@@ -88,6 +90,7 @@
 			"wikipedia": "https://en.wikipedia.org/wiki/Sally_Rooney",
 			"photos": "https://images.gr-assets.com/authors/1534007127p5/15860970.jpg",
 			"nationality": "Irish",
+			"flag": "🇮🇪",
 			"blurb": "an acclaimed Irish author celebrated for her keenly observed novels that explore complex relationships and contemporary societal issues with a distinctive, minimalist prose style."
 		},
 		"books": [
@@ -139,6 +142,7 @@
 			"wikipedia": "https://en.wikipedia.org/wiki/Terry_Pratchett",
 			"photos": "https://static01.nyt.com/images/2015/03/13/arts/14PRATCHETT1-obit/14PRATCHETT1-obit-superJumbo.jpg?quality=75&auto=webp",
 			"nationality": "British",
+			"flag": "🇬🇧",
 			"blurb": "a beloved British author known for his satirical and humorous Discworld series, which brilliantly combines fantasy, wit, and sharp social commentary, making him one of the most influential and cherished writers in the genre."
 		},
 		"books": [
@@ -179,6 +183,7 @@
 			"wikipedia": "https://en.wikipedia.org/wiki/Neil_Gaiman",
 			"photos": "https://www.dispatch.com/gcdn/presto/2022/05/05/NCOD/36dd1674-0867-4e78-b584-dd41feff167a-Neil_Gaiman_credit_Beowulf_Sheehan.jpg?width=600&height=900&fit=crop&format=pjpg&auto=webp",
 			"nationality": "British",
+			"flag": "🇬🇧",
 			"blurb": "a versatile and celebrated British author known for his imaginative works that span across genres, including fantasy, horror, and science fiction."
 		},
 		"books": [
@@ -219,6 +224,7 @@
 			"wikipedia": "https://en.wikipedia.org/wiki/Kurt_Vonnegut",
 			"photos": "https://cdn.britannica.com/57/103757-050-34A2A9A0/Kurt-Vonnegut-Jr-American.jpg",
 			"nationality": "American",
+			"flag": "🇺🇸",
 			"blurb": "a highly influential American author known for his darkly satirical novels that blend science fiction, humor, and social critique."
 		},
 		"books": [
@@ -258,6 +264,7 @@
 			"wikipedia": "https://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
 			"photos": "https://cdn.britannica.com/45/181345-050-189BA6B8/Fyodor-Dostoyevsky-1876.jpg",
 			"nationality": "Russian",
+			"flag": "🇷🇺",
 			"blurb": "was a towering Russian novelist whose profound psychological insight and exploration of moral and existential dilemmas."
 		},
 		"books": [
@@ -297,6 +304,7 @@
 			"wikipedia": "https://en.wikipedia.org/wiki/Charles_Bukowski",
 			"photos": "https://cdn.prod.website-files.com/63d2e5c935189c740b46adfe/64652d70c6855b58a47ae52c_00129.png",
 			"nationality": "German-American",
+			"flag": "🇩🇪🇺🇸",
 			"blurb": "was an American poet and novelist known for his raw, gritty, and often controversial writing that candidly depicts the struggles and experiences of the working class."
 		},
 		"books": [
@@ -336,6 +344,7 @@
 			"wikipedia": "https://en.wikipedia.org/wiki/Franz_Kafka",
 			"photos": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcSOJseqMGsdOhWkFPCDWsjDIRyWQ_WYSJM5zeUY-KzqdTF7Yaq4xGt_cTda5aiiEhfML6BchLZ-n5OVsqg",
 			"nationality": "Bohemian",
+			"flag": "🇵🇱",
 			"blurb": "was a German-speaking Bohemian writer whose surreal and often unsettling works that delve into themes of alienation, existential dread, and bureaucratic absurdity, profoundly influencing modern literature."
 		},
 		"books": [
@@ -375,6 +384,7 @@
 			"wikipedia": "https://en.wikipedia.org/wiki/Isaac_Asimov",
 			"photos": "https://upload.wikimedia.org/wikipedia/commons/3/34/Isaac.Asimov01.jpg",
 			"nationality": "American",
+			"flag": "🇺🇸",
 			"blurb": "was a prolific American author and biochemist, renowned for his extensive contributions to science fiction and popular science, with seminal works that explore complex themes of technology, humanity, and future societies."
 		},
 		"books": [
