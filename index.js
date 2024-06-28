@@ -4,6 +4,7 @@ const url = require('url');
 const path = require('path');
 
 const replaceTemplate = require('./models/replaceTemplate');
+const isEmpty = require('./models/isEmpty');
 
 const hostname = '127.0.0.1';
 const port = 3000;
@@ -19,8 +20,6 @@ const server = http.createServer((req, res) => {
 	// get the url and query parameters
 	const { query, pathname } = url.parse(req.url, true);
 
-	console.log(pathname);
-
 	// setup the routes
 	if (pathname === '/api') {
 		res.writeHead(200, {
@@ -31,8 +30,20 @@ const server = http.createServer((req, res) => {
 		res.writeHead(200, {
 			'Content-Type': 'text/html',
 		});
-
-		const cardsHtml = authors.map((el) => replaceTemplate(card, el)).join('');
+		let authorsData = [];
+		if (query.q) {
+			authorsData = authors.filter(
+				(author) =>
+					author.attributes.name.match(new RegExp(query.q, 'i')) ||
+					author.attributes.nationality.match(new RegExp(query.q, 'i')) ||
+					author.attributes.blurb.match(new RegExp(query.q, 'i'))
+			);
+		} else {
+			authorsData = authors;
+		}
+		const cardsHtml = authorsData
+			.map((el) => replaceTemplate(card, el))
+			.join('');
 		const output = index.replace(/{%AUTHOR_CARDS%}/g, cardsHtml);
 
 		res.end(output);
